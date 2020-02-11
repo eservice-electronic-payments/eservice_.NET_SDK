@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Parameters>
+  <Environment value="UAT">
+      <SessionTokenRequestUrl>https://apiuat.test.secure.eservice.com.pl/token</SessionTokenRequestUrl>
+      <PaymentOperationActionUrl>https://apiuat.test.secure.eservice.com.pl/payments</PaymentOperationActionUrl>
+      <CashierUrl>https://cashierui-apiuat.test.secure.eservice.com.pl/ui/cashier</CashierUrl>
+      <CashierMobileUrl>https://cashierui-apiqa.test.myriadpayments.com/react-frontend/index.html</CashierMobileUrl>
+      <JavaScriptUrl>https://cashierui-apiuat.test.secure.eservice.com.pl/js/api.js</JavaScriptUrl>
+    </Environment>
+  <Environment value="Production">
+    <SessionTokenRequestUrl>https://api.secure.eservice.com.pl/token</SessionTokenRequestUrl>
+    <PaymentOperationActionUrl>https://api.secure.eservice.com.pl/payments</PaymentOperationActionUrl>
+    <CashierUrl>https://cashierui-api.secure.eservice.com.pl/ui/cashier</CashierUrl>
+    <CashierMobileUrl>https://cashierui-api.myriadpayments.com/react-frontend/index.html</CashierMobileUrl>
+    <JavaScriptUrl>https://cashierui-api.secure.eservice.com.pl/js/api.js</JavaScriptUrl>
+  </Environment>
+</Parameters>
